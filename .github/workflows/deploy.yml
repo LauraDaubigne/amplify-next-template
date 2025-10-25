@@ -22,7 +22,7 @@ jobs:
 
       - name: Bootstrap CDK (if not done)
         run: |
-          npx cdk bootstrap aws://203985431596/eu-central-1
+          npx cdk bootstrap aws://203985431596/us-east-1
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
